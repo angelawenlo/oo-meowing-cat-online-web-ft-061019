@@ -1,10 +1,10 @@
 ## code your solution here.
 class Cat
   attr_accessor :name
-  def purr=(meow)
-    @purr = meow
+  def meow=(purr)
+    @meow = purr
   end
   def purr
-    @purr
+    @meow
   end
 end
